@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_smpl/model/product_model.dart';
 import 'package:get/get.dart';
 
 class UIUpdate extends StatelessWidget {

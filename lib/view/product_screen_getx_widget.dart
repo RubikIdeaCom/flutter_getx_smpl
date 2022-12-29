@@ -35,7 +35,7 @@ class MainScreen extends StatelessWidget {
                   val.off = "20%";
                 });
               },
-              child: Text("Press"),
+              child: const Text("Press"),
             )
           ],
         ),
