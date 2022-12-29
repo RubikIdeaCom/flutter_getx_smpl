@@ -7,9 +7,8 @@ class ProductScreen extends StatelessWidget {
   ProductScreen({super.key});
 
   // Dependency Injection:
-  ProductController productController = Get.put(ProductController(
-      prodcutModel:
-          ProductModel(name: 'نوشابه', price: '100,000', off: '20%').obs));
+  // ProductController productController = Get.put(ProductController(prodcutModel:ProductModel(name: 'نوشابه', price: '100,000', off: '20%').obs));
+  ProductController productController = Get.put(ProductController());
 
   @override
   Widget build(BuildContext context) {
