@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_smpl/controller/product_getbuilder_controller.dart';
 import 'package:get/get.dart';
-import 'package:flutter_getx_smpl/model/product_model.dart';
 
 class ProductScreenGetBuilder extends StatelessWidget {
-  ProductScreenGetBuilder({super.key});
+  const ProductScreenGetBuilder({super.key});
 
   @override
   Widget build(BuildContext context) {
